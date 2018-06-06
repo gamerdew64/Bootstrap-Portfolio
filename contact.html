@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Your Name</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Beginning page content -->
+    <header id="masthead">
+      <div>
+        <!-- Start Nav -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-5">
+          <a class="navbar-brand d-flex mr-auto text-white" href="#" id="logo">| Joseph Perkins |</a> <!-- "bg-info" makes the background color teal. Removing for now. -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto w-75 justify-content-end">
+              <li class="nav-item active">
+                <a class="nav-link text-white" href="index.html">| About |<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="portfolio.html">| Portfolio |</a>
+              </li>              
+              <li class="nav-item">
+                <a class="nav-link text-white" href="contact.html">| Contact |</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <!-- "Dropdown" placeholder text -->
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="index.html">About</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="portfolio.html">Portfolio</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="contact.html">Contact</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <!-- End Nav -->
+      </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+          <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+          <div class ="col-md-12">
+            <div class="card">
+              <div class="card-body">
+                <div class="page-header">
+                  <h2 class="text-info display-4">Contact</h2>
+                  <hr>
+                  <!-- Contact Form Itself -->
+                  <form id="contact-form" role="form">
+                      <div class="messages"></div>
+                      <div class="controls">
+                          <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your full name *">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-md-12">
+                                  <div class="form-group">
+                                      <label for="form_message">Message *</label>
+                                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4"></textarea>
+                                      <div class="help-block with-errors"></div>
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <input type="submit" class="btn btn-success btn-send" value="Submit">
+                              </div>
+                          </div>
+                      </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- 
+  <footer class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+      <div class="container text-center">
+          <p class="navbar-text col-md-12 col-sm-12 col-xs-12"> Copyright &copy;</p>
+      </div>
+  </footer> -->
+
+  <!-- ### Footer Section ### -->
+
+  <footer class="footer">
+      <div class="container">
+        <span class="text-white">Copyright &copy;</span>
+      </div>
+  </footer>
+
+</body>
+</html>
