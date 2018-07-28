@@ -42,9 +42,6 @@ git clone "name of repository"
 * HTML5
 * CSS
 
-## Versioning
-
-For the current version, please refer to the following repository (https://github.com/gamerdew64/basic-portfolio). 
 
 ## Authors
 
