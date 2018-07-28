@@ -26,12 +26,12 @@ Say what the step will be
 
 ```
 Clone the following SSH repository:
-git@github.com:gamerdew64/basic-portfolio.git
+git@github.com:gamerdew64/Bootstrap-Portfolio.git
 
 or
 
 Clone the following HTTPS repository:
-https://github.com/gamerdew64/basic-portfolio.git
+https://github.com/gamerdew64/Bootstrap-Portfolio.git
 
 Navigate to the directory in which you would like to place these files, use the following UNIX/Git Bash command, to get these files on your local machine:
 git clone "name of repository"
