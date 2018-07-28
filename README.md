@@ -50,9 +50,8 @@ For the current version, please refer to the following repository (https://githu
 
 * **Joseph Perkins** - *Initial work*
 
-## Source Template for Current README
-
-* 
+## Link to Deployed Project:
+https://gamerdew64.github.io/Bootstrap-Portfolio
 
 ## Acknowledgments
 
